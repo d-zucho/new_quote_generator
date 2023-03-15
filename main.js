@@ -15,6 +15,7 @@ const newQuote = () => {
   getQuote(index)
 }
 
+//* retrieve random quote from array and insert into HTML
 const getQuote = (index) => {
   try {
     //* get specific quote from quotes array
